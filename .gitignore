@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+.env/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Generated workspace
+workspace/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Models (future safe)
+models/
+*.gguf
